@@ -8,20 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		45411D911F4C86CE008375A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45411D901F4C86CE008375A4 /* AppDelegate.swift */; };
-		45411D931F4C86CF008375A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45411D921F4C86CF008375A4 /* ViewController.swift */; };
+		45411D931F4C86CF008375A4 /* SoloTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45411D921F4C86CF008375A4 /* SoloTVC.swift */; };
 		45411D961F4C86CF008375A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45411D941F4C86CF008375A4 /* Main.storyboard */; };
 		45411D981F4C86CF008375A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45411D971F4C86CF008375A4 /* Assets.xcassets */; };
 		45411D9B1F4C86CF008375A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45411D991F4C86CF008375A4 /* LaunchScreen.storyboard */; };
+		45411DA31F4C88B8008375A4 /* ExcerptList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45411DA21F4C88B8008375A4 /* ExcerptList.swift */; };
+		45411DA81F4C987F008375A4 /* PDFViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45411DA71F4C987F008375A4 /* PDFViewer.swift */; };
+		45411DBA1F4CA24D008375A4 /* Carmen (Bizet) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DB91F4CA24D008375A4 /* Carmen (Bizet) solo.pdf */; };
+		45411DBF1F4CA837008375A4 /* Symphony no. 8 (Bruckner) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DBD1F4CA837008375A4 /* Symphony no. 8 (Bruckner) solo.pdf */; };
+		45411DC31F4CA84C008375A4 /* Don Pasquale (Donizetti) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DC21F4CA84C008375A4 /* Don Pasquale (Donizetti) solo.pdf */; };
+		45411DC71F4CA85E008375A4 /* Symphony no. 3 (Mahler) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DC51F4CA85E008375A4 /* Symphony no. 3 (Mahler) solo.pdf */; };
+		45411DC81F4CA85E008375A4 /* Symphony no. 9 (Mahler) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DC61F4CA85E008375A4 /* Symphony no. 9 (Mahler) solo.pdf */; };
+		45411DCB1F4CA884008375A4 /* Piano Concerto (Ravel) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DCA1F4CA884008375A4 /* Piano Concerto (Ravel) solo.pdf */; };
+		45411DCE1F4CA89E008375A4 /* Symphony no. 2 (Schumann) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DCD1F4CA89E008375A4 /* Symphony no. 2 (Schumann) solo.pdf */; };
+		45411DD11F4CA8AE008375A4 /* Symphony no. 5 (Tchaikovsky) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DD01F4CA8AE008375A4 /* Symphony no. 5 (Tchaikovsky) solo.pdf */; };
+		45411DD41F4CA8C7008375A4 /* Parsifal (Wagner) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DD31F4CA8C7008375A4 /* Parsifal (Wagner) solo.pdf */; };
+		45411DD61F4CAB6E008375A4 /* Symphony no. 5 (Mahler) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DD51F4CAB6E008375A4 /* Symphony no. 5 (Mahler) solo.pdf */; };
+		45411DD91F4CAB80008375A4 /* Christmas Oratorio (Bach) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DD81F4CAB80008375A4 /* Christmas Oratorio (Bach) solo.pdf */; };
+		45411DDB1F4CAC17008375A4 /* Mass in b minor (Bach) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DDA1F4CAC17008375A4 /* Mass in b minor (Bach) solo.pdf */; };
+		45411DDF1F4CAE94008375A4 /* Symphony no. 7 (Bruckner) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DDE1F4CAE94008375A4 /* Symphony no. 7 (Bruckner) solo.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		45411D8D1F4C86CE008375A4 /* Trumpet Excerpts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trumpet Excerpts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45411D901F4C86CE008375A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		45411D921F4C86CF008375A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45411D921F4C86CF008375A4 /* SoloTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoloTVC.swift; sourceTree = "<group>"; };
 		45411D951F4C86CF008375A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45411D971F4C86CF008375A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45411D9A1F4C86CF008375A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45411D9C1F4C86CF008375A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45411DA21F4C88B8008375A4 /* ExcerptList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExcerptList.swift; sourceTree = "<group>"; };
+		45411DA71F4C987F008375A4 /* PDFViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PDFViewer.swift; path = ../PDFViewer.swift; sourceTree = "<group>"; };
+		45411DB91F4CA24D008375A4 /* Carmen (Bizet) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Carmen (Bizet) solo.pdf"; path = "PDF/Solo/Bizet/Carmen (Bizet) solo.pdf"; sourceTree = "<group>"; };
+		45411DBD1F4CA837008375A4 /* Symphony no. 8 (Bruckner) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Symphony no. 8 (Bruckner) solo.pdf"; path = "PDF/Solo/Bruckner/Symphony no. 8 (Bruckner) solo.pdf"; sourceTree = "<group>"; };
+		45411DC21F4CA84C008375A4 /* Don Pasquale (Donizetti) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Don Pasquale (Donizetti) solo.pdf"; path = "PDF/Solo/Donizetti/Don Pasquale (Donizetti) solo.pdf"; sourceTree = "<group>"; };
+		45411DC51F4CA85E008375A4 /* Symphony no. 3 (Mahler) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Symphony no. 3 (Mahler) solo.pdf"; path = "PDF/Solo/Mahler/Symphony no. 3 (Mahler) solo.pdf"; sourceTree = "<group>"; };
+		45411DC61F4CA85E008375A4 /* Symphony no. 9 (Mahler) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Symphony no. 9 (Mahler) solo.pdf"; path = "PDF/Solo/Mahler/Symphony no. 9 (Mahler) solo.pdf"; sourceTree = "<group>"; };
+		45411DCA1F4CA884008375A4 /* Piano Concerto (Ravel) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Piano Concerto (Ravel) solo.pdf"; path = "PDF/Solo/Ravel/Piano Concerto (Ravel) solo.pdf"; sourceTree = "<group>"; };
+		45411DCD1F4CA89E008375A4 /* Symphony no. 2 (Schumann) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Symphony no. 2 (Schumann) solo.pdf"; path = "PDF/Solo/Schumann/Symphony no. 2 (Schumann) solo.pdf"; sourceTree = "<group>"; };
+		45411DD01F4CA8AE008375A4 /* Symphony no. 5 (Tchaikovsky) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Symphony no. 5 (Tchaikovsky) solo.pdf"; path = "PDF/Solo/Tchaikovsky/Symphony no. 5 (Tchaikovsky) solo.pdf"; sourceTree = "<group>"; };
+		45411DD31F4CA8C7008375A4 /* Parsifal (Wagner) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Parsifal (Wagner) solo.pdf"; path = "PDF/Solo/Wagner/Parsifal (Wagner) solo.pdf"; sourceTree = "<group>"; };
+		45411DD51F4CAB6E008375A4 /* Symphony no. 5 (Mahler) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Symphony no. 5 (Mahler) solo.pdf"; path = "PDF/Solo/Mahler/Symphony no. 5 (Mahler) solo.pdf"; sourceTree = "<group>"; };
+		45411DD81F4CAB80008375A4 /* Christmas Oratorio (Bach) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Christmas Oratorio (Bach) solo.pdf"; path = "PDF/Solo/Bach/Christmas Oratorio (Bach) solo.pdf"; sourceTree = "<group>"; };
+		45411DDA1F4CAC17008375A4 /* Mass in b minor (Bach) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Mass in b minor (Bach) solo.pdf"; path = "PDF/Solo/Bach/Mass in b minor (Bach) solo.pdf"; sourceTree = "<group>"; };
+		45411DDE1F4CAE94008375A4 /* Symphony no. 7 (Bruckner) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Symphony no. 7 (Bruckner) solo.pdf"; path = "PDF/Solo/Bruckner/Symphony no. 7 (Bruckner) solo.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +84,125 @@
 		45411D8F1F4C86CE008375A4 /* Trumpet Excerpts */ = {
 			isa = PBXGroup;
 			children = (
+				45411DA41F4C8918008375A4 /* PDF */,
 				45411D901F4C86CE008375A4 /* AppDelegate.swift */,
-				45411D921F4C86CF008375A4 /* ViewController.swift */,
+				45411D921F4C86CF008375A4 /* SoloTVC.swift */,
+				45411DA71F4C987F008375A4 /* PDFViewer.swift */,
+				45411DA21F4C88B8008375A4 /* ExcerptList.swift */,
 				45411D941F4C86CF008375A4 /* Main.storyboard */,
 				45411D971F4C86CF008375A4 /* Assets.xcassets */,
 				45411D991F4C86CF008375A4 /* LaunchScreen.storyboard */,
 				45411D9C1F4C86CF008375A4 /* Info.plist */,
 			);
 			path = "Trumpet Excerpts";
+			sourceTree = "<group>";
+		};
+		45411DA41F4C8918008375A4 /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				45411DA51F4C8926008375A4 /* Solo */,
+				45411DA61F4C892B008375A4 /* Tutti */,
+			);
+			name = PDF;
+			sourceTree = "<group>";
+		};
+		45411DA51F4C8926008375A4 /* Solo */ = {
+			isa = PBXGroup;
+			children = (
+				45411DD71F4CAB74008375A4 /* Bach */,
+				45411DBB1F4CA251008375A4 /* Bizet */,
+				45411DBC1F4CA81F008375A4 /* Bruckner */,
+				45411DC11F4CA843008375A4 /* Donizetti */,
+				45411DC41F4CA857008375A4 /* Mahler */,
+				45411DC91F4CA87F008375A4 /* Ravel */,
+				45411DCC1F4CA896008375A4 /* Schumann */,
+				45411DCF1F4CA8A4008375A4 /* Tchaikovsky */,
+				45411DD21F4CA8BE008375A4 /* Wagner */,
+			);
+			name = Solo;
+			sourceTree = "<group>";
+		};
+		45411DA61F4C892B008375A4 /* Tutti */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tutti;
+			sourceTree = "<group>";
+		};
+		45411DBB1F4CA251008375A4 /* Bizet */ = {
+			isa = PBXGroup;
+			children = (
+				45411DB91F4CA24D008375A4 /* Carmen (Bizet) solo.pdf */,
+			);
+			name = Bizet;
+			sourceTree = "<group>";
+		};
+		45411DBC1F4CA81F008375A4 /* Bruckner */ = {
+			isa = PBXGroup;
+			children = (
+				45411DBD1F4CA837008375A4 /* Symphony no. 8 (Bruckner) solo.pdf */,
+				45411DDE1F4CAE94008375A4 /* Symphony no. 7 (Bruckner) solo.pdf */,
+			);
+			name = Bruckner;
+			sourceTree = "<group>";
+		};
+		45411DC11F4CA843008375A4 /* Donizetti */ = {
+			isa = PBXGroup;
+			children = (
+				45411DC21F4CA84C008375A4 /* Don Pasquale (Donizetti) solo.pdf */,
+			);
+			name = Donizetti;
+			sourceTree = "<group>";
+		};
+		45411DC41F4CA857008375A4 /* Mahler */ = {
+			isa = PBXGroup;
+			children = (
+				45411DD51F4CAB6E008375A4 /* Symphony no. 5 (Mahler) solo.pdf */,
+				45411DC51F4CA85E008375A4 /* Symphony no. 3 (Mahler) solo.pdf */,
+				45411DC61F4CA85E008375A4 /* Symphony no. 9 (Mahler) solo.pdf */,
+			);
+			name = Mahler;
+			sourceTree = "<group>";
+		};
+		45411DC91F4CA87F008375A4 /* Ravel */ = {
+			isa = PBXGroup;
+			children = (
+				45411DCA1F4CA884008375A4 /* Piano Concerto (Ravel) solo.pdf */,
+			);
+			name = Ravel;
+			sourceTree = "<group>";
+		};
+		45411DCC1F4CA896008375A4 /* Schumann */ = {
+			isa = PBXGroup;
+			children = (
+				45411DCD1F4CA89E008375A4 /* Symphony no. 2 (Schumann) solo.pdf */,
+			);
+			name = Schumann;
+			sourceTree = "<group>";
+		};
+		45411DCF1F4CA8A4008375A4 /* Tchaikovsky */ = {
+			isa = PBXGroup;
+			children = (
+				45411DD01F4CA8AE008375A4 /* Symphony no. 5 (Tchaikovsky) solo.pdf */,
+			);
+			name = Tchaikovsky;
+			sourceTree = "<group>";
+		};
+		45411DD21F4CA8BE008375A4 /* Wagner */ = {
+			isa = PBXGroup;
+			children = (
+				45411DD31F4CA8C7008375A4 /* Parsifal (Wagner) solo.pdf */,
+			);
+			name = Wagner;
+			sourceTree = "<group>";
+		};
+		45411DD71F4CAB74008375A4 /* Bach */ = {
+			isa = PBXGroup;
+			children = (
+				45411DD81F4CAB80008375A4 /* Christmas Oratorio (Bach) solo.pdf */,
+				45411DDA1F4CAC17008375A4 /* Mass in b minor (Bach) solo.pdf */,
+			);
+			name = Bach;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +265,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45411DD91F4CAB80008375A4 /* Christmas Oratorio (Bach) solo.pdf in Resources */,
+				45411DD41F4CA8C7008375A4 /* Parsifal (Wagner) solo.pdf in Resources */,
+				45411DC71F4CA85E008375A4 /* Symphony no. 3 (Mahler) solo.pdf in Resources */,
 				45411D9B1F4C86CF008375A4 /* LaunchScreen.storyboard in Resources */,
+				45411DDF1F4CAE94008375A4 /* Symphony no. 7 (Bruckner) solo.pdf in Resources */,
+				45411DCE1F4CA89E008375A4 /* Symphony no. 2 (Schumann) solo.pdf in Resources */,
+				45411DDB1F4CAC17008375A4 /* Mass in b minor (Bach) solo.pdf in Resources */,
+				45411DBA1F4CA24D008375A4 /* Carmen (Bizet) solo.pdf in Resources */,
+				45411DC81F4CA85E008375A4 /* Symphony no. 9 (Mahler) solo.pdf in Resources */,
+				45411DD61F4CAB6E008375A4 /* Symphony no. 5 (Mahler) solo.pdf in Resources */,
+				45411DBF1F4CA837008375A4 /* Symphony no. 8 (Bruckner) solo.pdf in Resources */,
+				45411DD11F4CA8AE008375A4 /* Symphony no. 5 (Tchaikovsky) solo.pdf in Resources */,
+				45411DCB1F4CA884008375A4 /* Piano Concerto (Ravel) solo.pdf in Resources */,
+				45411DC31F4CA84C008375A4 /* Don Pasquale (Donizetti) solo.pdf in Resources */,
 				45411D981F4C86CF008375A4 /* Assets.xcassets in Resources */,
 				45411D961F4C86CF008375A4 /* Main.storyboard in Resources */,
 			);
@@ -137,7 +291,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45411D931F4C86CF008375A4 /* ViewController.swift in Sources */,
+				45411D931F4C86CF008375A4 /* SoloTVC.swift in Sources */,
+				45411DA31F4C88B8008375A4 /* ExcerptList.swift in Sources */,
+				45411DA81F4C987F008375A4 /* PDFViewer.swift in Sources */,
 				45411D911F4C86CE008375A4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +421,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5PY55DGNG5;
 				INFOPLIST_FILE = "Trumpet Excerpts/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Swatland-Music.Trumpet-Excerpts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,6 +435,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5PY55DGNG5;
 				INFOPLIST_FILE = "Trumpet Excerpts/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Swatland-Music.Trumpet-Excerpts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
