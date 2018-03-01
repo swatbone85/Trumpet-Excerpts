@@ -36,7 +36,7 @@ class SoloTVC: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return soloExcerpts[section].composer
+        return "\(soloExcerpts[section].composer.uppercased()), \(soloExcerpts[section].firstName)"
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

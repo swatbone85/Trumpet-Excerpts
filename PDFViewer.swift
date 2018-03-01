@@ -29,4 +29,12 @@ class PDFViewer: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func shareButtonPressed(_ sender: UIBarButtonItem) {
+        
+        let activityVC = UIActivityViewController(activityItems: [(pdfViewer.request?.url?.absoluteURL)! as URL], applicationActivities: nil)
+        activityVC.popoverPresentationController?.sourceView = self.view
+        self.present(activityVC, animated: true, completion: nil)
+        
+        
+    }
 }

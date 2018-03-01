@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cgv-6j-aqy">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14092" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cgv-6j-aqy">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14081.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -14,7 +14,7 @@
             <objects>
                 <tableViewController id="TNk-mv-0XD" customClass="SoloTVC" customModule="Trumpet_Excerpts" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="63" sectionHeaderHeight="28" sectionFooterHeight="28" id="olO-ki-4Db">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="55"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jHv-d0-oeb" id="LGt-SC-PWf">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="55"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="54.666666666666664"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -32,7 +32,9 @@
                             <outlet property="delegate" destination="TNk-mv-0XD" id="IML-ES-69Z"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="EXCERPTS" id="UJg-AV-a9O"/>
+                    <navigationItem key="navigationItem" title="EXCERPTS" id="UJg-AV-a9O">
+                        <barButtonItem key="backBarButtonItem" title="Excerpts" id="u57-9Z-ODF"/>
+                    </navigationItem>
                     <connections>
                         <segue destination="Fo4-0Z-kyc" kind="show" identifier="soloSegue" id="np4-IL-fMZ"/>
                     </connections>
@@ -41,7 +43,7 @@
             </objects>
             <point key="canvasLocation" x="1220" y="89.505247376311857"/>
         </scene>
-        <!--Viewer-->
+        <!--Title-->
         <scene sceneID="cXA-Fn-g5P">
             <objects>
                 <viewController id="Fo4-0Z-kyc" customClass="PDFViewer" customModule="Trumpet_Excerpts" customModuleProvider="target" sceneMemberID="viewController">
@@ -50,11 +52,11 @@
                         <viewControllerLayoutGuide type="bottom" id="95q-6Q-rGt"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="spL-HP-DxR">
-                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fyJ-V4-gaK">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="690"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
@@ -67,6 +69,15 @@
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <navigationItem key="navigationItem" title="Title" id="Aqo-1R-2gD">
+                        <barButtonItem key="backBarButtonItem" title="Excerpts" id="BXK-3J-OCT"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="I6C-i0-Ycu">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="shareButtonPressed:" destination="Fo4-0Z-kyc" id="wYh-5w-LSY"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="pdfViewer" destination="fyJ-V4-gaK" id="vYM-Bi-BQg"/>
                     </connections>
@@ -81,9 +92,9 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cgv-6j-aqy" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="ENc-1s-5J2">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.0" green="0.098039215690000001" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.70676067382911711" green="0.14890402399919944" blue="0.30001367813584262" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

@@ -5,7 +5,6 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,20 +21,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trumpet Excerpts" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="Bka-X1-4YC">
-                                <rect key="frame" x="20" y="205" width="335" height="43"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="43" id="W2x-ek-vsd"/>
-                                </constraints>
+                                <rect key="frame" x="36" y="312" width="303.5" height="43"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.098039215690000001" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.70676067379999996" green="0.148904024" blue="0.30001367810000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Bka-X1-4YC" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="4" id="4Or-gP-xOG"/>
-                            <constraint firstItem="Bka-X1-4YC" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="185" id="9nn-vd-lpI"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Bka-X1-4YC" secondAttribute="trailing" constant="4" id="KA0-QO-Geh"/>
+                            <constraint firstItem="Bka-X1-4YC" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="hTS-Qo-x0m"/>
+                            <constraint firstItem="Bka-X1-4YC" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="v7R-Fx-2BV"/>
                         </constraints>
                     </view>
                 </viewController>
