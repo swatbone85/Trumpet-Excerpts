@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D482334F1662411B10C2A52 /* Pods_Trumpet_Excerpts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050B0B0B455DB430BB42F39A /* Pods_Trumpet_Excerpts.framework */; };
 		45411D911F4C86CE008375A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45411D901F4C86CE008375A4 /* AppDelegate.swift */; };
 		45411D931F4C86CF008375A4 /* SoloTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45411D921F4C86CF008375A4 /* SoloTVC.swift */; };
 		45411D961F4C86CF008375A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45411D941F4C86CF008375A4 /* Main.storyboard */; };
@@ -14,35 +15,37 @@
 		45411D9B1F4C86CF008375A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45411D991F4C86CF008375A4 /* LaunchScreen.storyboard */; };
 		45411DA31F4C88B8008375A4 /* ExcerptList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45411DA21F4C88B8008375A4 /* ExcerptList.swift */; };
 		45411DA81F4C987F008375A4 /* PDFViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45411DA71F4C987F008375A4 /* PDFViewer.swift */; };
-		45411DBA1F4CA24D008375A4 /* Carmen (Bizet) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DB91F4CA24D008375A4 /* Carmen (Bizet) solo.pdf */; };
-		45411DBF1F4CA837008375A4 /* Symphony no. 8 (Bruckner) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DBD1F4CA837008375A4 /* Symphony no. 8 (Bruckner) solo.pdf */; };
-		45411DC31F4CA84C008375A4 /* Don Pasquale (Donizetti) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DC21F4CA84C008375A4 /* Don Pasquale (Donizetti) solo.pdf */; };
-		45411DC71F4CA85E008375A4 /* Symphony no. 3 (Mahler) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DC51F4CA85E008375A4 /* Symphony no. 3 (Mahler) solo.pdf */; };
-		45411DC81F4CA85E008375A4 /* Symphony no. 9 (Mahler) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DC61F4CA85E008375A4 /* Symphony no. 9 (Mahler) solo.pdf */; };
-		45411DCB1F4CA884008375A4 /* Piano Concerto (Ravel) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DCA1F4CA884008375A4 /* Piano Concerto (Ravel) solo.pdf */; };
-		45411DCE1F4CA89E008375A4 /* Symphony no. 2 (Schumann) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DCD1F4CA89E008375A4 /* Symphony no. 2 (Schumann) solo.pdf */; };
-		45411DD11F4CA8AE008375A4 /* Symphony no. 5 (Tchaikovsky) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DD01F4CA8AE008375A4 /* Symphony no. 5 (Tchaikovsky) solo.pdf */; };
-		45411DD41F4CA8C7008375A4 /* Parsifal (Wagner) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DD31F4CA8C7008375A4 /* Parsifal (Wagner) solo.pdf */; };
-		45411DD61F4CAB6E008375A4 /* Symphony no. 5 (Mahler) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DD51F4CAB6E008375A4 /* Symphony no. 5 (Mahler) solo.pdf */; };
-		45411DD91F4CAB80008375A4 /* Christmas Oratorio (Bach) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DD81F4CAB80008375A4 /* Christmas Oratorio (Bach) solo.pdf */; };
-		45411DDB1F4CAC17008375A4 /* Mass in b minor (Bach) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DDA1F4CAC17008375A4 /* Mass in b minor (Bach) solo.pdf */; };
-		45A4EC431F532A5B00F27E49 /* Symphony no. 4 (Tchaikovsky) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45A4EC421F532A5B00F27E49 /* Symphony no. 4 (Tchaikovsky) solo.pdf */; };
-		45A4EC451F532AD900F27E49 /* Magnificat (Bach) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45A4EC441F532AD900F27E49 /* Magnificat (Bach) solo.pdf */; };
-		45A4EC481F532AFC00F27E49 /* Leonore Overture no. 2 (Beethoven) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45A4EC461F532AFC00F27E49 /* Leonore Overture no. 2 (Beethoven) solo.pdf */; };
-		45A4EC491F532AFC00F27E49 /* Symphony no. 9 (Beethoven) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45A4EC471F532AFC00F27E49 /* Symphony no. 9 (Beethoven) solo.pdf */; };
-		45A4EC4B1F532B2000F27E49 /* Academic Festival Overture (Brahms) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45A4EC4A1F532B2000F27E49 /* Academic Festival Overture (Brahms) solo.pdf */; };
-		45A4EC4D1F532B3F00F27E49 /* Symphony no. 8 (Dvorak) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45A4EC4C1F532B3F00F27E49 /* Symphony no. 8 (Dvorak) solo.pdf */; };
-		45A4EC4F1F55575B00F27E49 /* The Nutcracker (Tchaikovsky) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45A4EC4E1F55575B00F27E49 /* The Nutcracker (Tchaikovsky) solo.pdf */; };
-		45A4EC511F5559E600F27E49 /* Swan Lake (Tchaikovsky) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45A4EC501F5559E600F27E49 /* Swan Lake (Tchaikovsky) solo.pdf */; };
-		45A4EC531F556AB600F27E49 /* Symphony no. 2 (Brahms) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45A4EC521F556AB600F27E49 /* Symphony no. 2 (Brahms) solo.pdf */; };
-		45A4EC551F556D4C00F27E49 /* Tannhauser (Wagner) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45A4EC541F556D4C00F27E49 /* Tannhauser (Wagner) solo.pdf */; };
-		45BD34921F5007F900762866 /* Brandenburg Concerto no.2 (Bach) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34911F5007F900762866 /* Brandenburg Concerto no.2 (Bach) solo.pdf */; };
-		45BD34941F500B1400762866 /* Scheherazade (Rimsky-Korsakov) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34931F500B1400762866 /* Scheherazade (Rimsky-Korsakov) solo.pdf */; };
-		45BD34971F500CD400762866 /* Pictures at an Exhibition (Mussorgsky) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34961F500CD400762866 /* Pictures at an Exhibition (Mussorgsky) solo.pdf */; };
-		45BD349A1F50343D00762866 /* Symphony no. 7 (Bruckner) solo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34991F50343D00762866 /* Symphony no. 7 (Bruckner) solo.pdf */; };
+		45411DBA1F4CA24D008375A4 /* Carmen (Bizet).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DB91F4CA24D008375A4 /* Carmen (Bizet).pdf */; };
+		45411DBF1F4CA837008375A4 /* Symphony no. 8 (Bruckner).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DBD1F4CA837008375A4 /* Symphony no. 8 (Bruckner).pdf */; };
+		45411DC31F4CA84C008375A4 /* Don Pasquale (Donizetti).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DC21F4CA84C008375A4 /* Don Pasquale (Donizetti).pdf */; };
+		45411DC71F4CA85E008375A4 /* Symphony no. 3 (Mahler).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DC51F4CA85E008375A4 /* Symphony no. 3 (Mahler).pdf */; };
+		45411DC81F4CA85E008375A4 /* Symphony no. 9 (Mahler).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DC61F4CA85E008375A4 /* Symphony no. 9 (Mahler).pdf */; };
+		45411DCB1F4CA884008375A4 /* Piano Concerto (Ravel).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DCA1F4CA884008375A4 /* Piano Concerto (Ravel).pdf */; };
+		45411DCE1F4CA89E008375A4 /* Symphony no. 2 (Schumann).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DCD1F4CA89E008375A4 /* Symphony no. 2 (Schumann).pdf */; };
+		45411DD11F4CA8AE008375A4 /* Symphony no. 5 (Tchaikovsky).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DD01F4CA8AE008375A4 /* Symphony no. 5 (Tchaikovsky).pdf */; };
+		45411DD41F4CA8C7008375A4 /* Parsifal (Wagner).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DD31F4CA8C7008375A4 /* Parsifal (Wagner).pdf */; };
+		45411DD61F4CAB6E008375A4 /* Symphony no. 5 (Mahler).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DD51F4CAB6E008375A4 /* Symphony no. 5 (Mahler).pdf */; };
+		45411DD91F4CAB80008375A4 /* Christmas Oratorio (Bach).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DD81F4CAB80008375A4 /* Christmas Oratorio (Bach).pdf */; };
+		45411DDB1F4CAC17008375A4 /* Mass in b minor (Bach).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45411DDA1F4CAC17008375A4 /* Mass in b minor (Bach).pdf */; };
+		456C31FC20886AB500BCF9B5 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456C31FB20886AB500BCF9B5 /* ActivityIndicator.swift */; };
+		45A4EC431F532A5B00F27E49 /* Symphony no. 4 (Tchaikovsky).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45A4EC421F532A5B00F27E49 /* Symphony no. 4 (Tchaikovsky).pdf */; };
+		45A4EC451F532AD900F27E49 /* Magnificat (Bach).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45A4EC441F532AD900F27E49 /* Magnificat (Bach).pdf */; };
+		45A4EC481F532AFC00F27E49 /* Leonore Overture no. 2 (Beethoven).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45A4EC461F532AFC00F27E49 /* Leonore Overture no. 2 (Beethoven).pdf */; };
+		45A4EC491F532AFC00F27E49 /* Symphony no. 9 (Beethoven).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45A4EC471F532AFC00F27E49 /* Symphony no. 9 (Beethoven).pdf */; };
+		45A4EC4B1F532B2000F27E49 /* Academic Festival Overture (Brahms).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45A4EC4A1F532B2000F27E49 /* Academic Festival Overture (Brahms).pdf */; };
+		45A4EC4D1F532B3F00F27E49 /* Symphony no. 8 (Dvorak).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45A4EC4C1F532B3F00F27E49 /* Symphony no. 8 (Dvorak).pdf */; };
+		45A4EC4F1F55575B00F27E49 /* The Nutcracker (Tchaikovsky).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45A4EC4E1F55575B00F27E49 /* The Nutcracker (Tchaikovsky).pdf */; };
+		45A4EC511F5559E600F27E49 /* Swan Lake (Tchaikovsky).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45A4EC501F5559E600F27E49 /* Swan Lake (Tchaikovsky).pdf */; };
+		45A4EC531F556AB600F27E49 /* Symphony no. 2 (Brahms).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45A4EC521F556AB600F27E49 /* Symphony no. 2 (Brahms).pdf */; };
+		45A4EC551F556D4C00F27E49 /* Tannhauser (Wagner).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45A4EC541F556D4C00F27E49 /* Tannhauser (Wagner).pdf */; };
+		45BD34921F5007F900762866 /* Brandenburg Concerto no.2 (Bach).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34911F5007F900762866 /* Brandenburg Concerto no.2 (Bach).pdf */; };
+		45BD34941F500B1400762866 /* Scheherazade (Rimsky-Korsakov).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34931F500B1400762866 /* Scheherazade (Rimsky-Korsakov).pdf */; };
+		45BD34971F500CD400762866 /* Pictures at an Exhibition (Mussorgsky).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34961F500CD400762866 /* Pictures at an Exhibition (Mussorgsky).pdf */; };
+		45BD349A1F50343D00762866 /* Symphony no. 7 (Bruckner).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34991F50343D00762866 /* Symphony no. 7 (Bruckner).pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		050B0B0B455DB430BB42F39A /* Pods_Trumpet_Excerpts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trumpet_Excerpts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45411D8D1F4C86CE008375A4 /* Trumpet Excerpts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trumpet Excerpts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45411D901F4C86CE008375A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45411D921F4C86CF008375A4 /* SoloTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoloTVC.swift; sourceTree = "<group>"; };
@@ -52,32 +55,35 @@
 		45411D9C1F4C86CF008375A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45411DA21F4C88B8008375A4 /* ExcerptList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExcerptList.swift; sourceTree = "<group>"; };
 		45411DA71F4C987F008375A4 /* PDFViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PDFViewer.swift; path = ../PDFViewer.swift; sourceTree = "<group>"; };
-		45411DB91F4CA24D008375A4 /* Carmen (Bizet) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Carmen (Bizet) solo.pdf"; path = "PDF/Solo/Bizet/Carmen (Bizet) solo.pdf"; sourceTree = "<group>"; };
-		45411DBD1F4CA837008375A4 /* Symphony no. 8 (Bruckner) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Symphony no. 8 (Bruckner) solo.pdf"; path = "PDF/Solo/Bruckner/Symphony no. 8 (Bruckner) solo.pdf"; sourceTree = "<group>"; };
-		45411DC21F4CA84C008375A4 /* Don Pasquale (Donizetti) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Don Pasquale (Donizetti) solo.pdf"; path = "PDF/Solo/Donizetti/Don Pasquale (Donizetti) solo.pdf"; sourceTree = "<group>"; };
-		45411DC51F4CA85E008375A4 /* Symphony no. 3 (Mahler) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Symphony no. 3 (Mahler) solo.pdf"; path = "PDF/Solo/Mahler/Symphony no. 3 (Mahler) solo.pdf"; sourceTree = "<group>"; };
-		45411DC61F4CA85E008375A4 /* Symphony no. 9 (Mahler) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Symphony no. 9 (Mahler) solo.pdf"; path = "PDF/Solo/Mahler/Symphony no. 9 (Mahler) solo.pdf"; sourceTree = "<group>"; };
-		45411DCA1F4CA884008375A4 /* Piano Concerto (Ravel) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Piano Concerto (Ravel) solo.pdf"; path = "PDF/Solo/Ravel/Piano Concerto (Ravel) solo.pdf"; sourceTree = "<group>"; };
-		45411DCD1F4CA89E008375A4 /* Symphony no. 2 (Schumann) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Symphony no. 2 (Schumann) solo.pdf"; path = "PDF/Solo/Schumann/Symphony no. 2 (Schumann) solo.pdf"; sourceTree = "<group>"; };
-		45411DD01F4CA8AE008375A4 /* Symphony no. 5 (Tchaikovsky) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Symphony no. 5 (Tchaikovsky) solo.pdf"; path = "PDF/Solo/Tchaikovsky/Symphony no. 5 (Tchaikovsky) solo.pdf"; sourceTree = "<group>"; };
-		45411DD31F4CA8C7008375A4 /* Parsifal (Wagner) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Parsifal (Wagner) solo.pdf"; path = "PDF/Solo/Wagner/Parsifal (Wagner) solo.pdf"; sourceTree = "<group>"; };
-		45411DD51F4CAB6E008375A4 /* Symphony no. 5 (Mahler) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Symphony no. 5 (Mahler) solo.pdf"; path = "PDF/Solo/Mahler/Symphony no. 5 (Mahler) solo.pdf"; sourceTree = "<group>"; };
-		45411DD81F4CAB80008375A4 /* Christmas Oratorio (Bach) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Christmas Oratorio (Bach) solo.pdf"; path = "PDF/Solo/Bach/Christmas Oratorio (Bach) solo.pdf"; sourceTree = "<group>"; };
-		45411DDA1F4CAC17008375A4 /* Mass in b minor (Bach) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Mass in b minor (Bach) solo.pdf"; path = "PDF/Solo/Bach/Mass in b minor (Bach) solo.pdf"; sourceTree = "<group>"; };
-		45A4EC421F532A5B00F27E49 /* Symphony no. 4 (Tchaikovsky) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Symphony no. 4 (Tchaikovsky) solo.pdf"; path = "PDF/Solo/Tchaikovsky/Symphony no. 4 (Tchaikovsky) solo.pdf"; sourceTree = "<group>"; };
-		45A4EC441F532AD900F27E49 /* Magnificat (Bach) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Magnificat (Bach) solo.pdf"; path = "PDF/Solo/Bach/Magnificat (Bach) solo.pdf"; sourceTree = "<group>"; };
-		45A4EC461F532AFC00F27E49 /* Leonore Overture no. 2 (Beethoven) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Leonore Overture no. 2 (Beethoven) solo.pdf"; path = "PDF/Solo/Beethoven/Leonore Overture no. 2 (Beethoven) solo.pdf"; sourceTree = "<group>"; };
-		45A4EC471F532AFC00F27E49 /* Symphony no. 9 (Beethoven) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Symphony no. 9 (Beethoven) solo.pdf"; path = "PDF/Solo/Beethoven/Symphony no. 9 (Beethoven) solo.pdf"; sourceTree = "<group>"; };
-		45A4EC4A1F532B2000F27E49 /* Academic Festival Overture (Brahms) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Academic Festival Overture (Brahms) solo.pdf"; path = "PDF/Solo/Brahms/Academic Festival Overture (Brahms) solo.pdf"; sourceTree = "<group>"; };
-		45A4EC4C1F532B3F00F27E49 /* Symphony no. 8 (Dvorak) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Symphony no. 8 (Dvorak) solo.pdf"; path = "PDF/Solo/Dvorak/Symphony no. 8 (Dvorak) solo.pdf"; sourceTree = "<group>"; };
-		45A4EC4E1F55575B00F27E49 /* The Nutcracker (Tchaikovsky) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "The Nutcracker (Tchaikovsky) solo.pdf"; path = "PDF/Solo/Tchaikovsky/The Nutcracker (Tchaikovsky) solo.pdf"; sourceTree = "<group>"; };
-		45A4EC501F5559E600F27E49 /* Swan Lake (Tchaikovsky) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Swan Lake (Tchaikovsky) solo.pdf"; path = "PDF/Solo/Tchaikovsky/Swan Lake (Tchaikovsky) solo.pdf"; sourceTree = "<group>"; };
-		45A4EC521F556AB600F27E49 /* Symphony no. 2 (Brahms) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Symphony no. 2 (Brahms) solo.pdf"; path = "PDF/Solo/Brahms/Symphony no. 2 (Brahms) solo.pdf"; sourceTree = "<group>"; };
-		45A4EC541F556D4C00F27E49 /* Tannhauser (Wagner) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Tannhauser (Wagner) solo.pdf"; path = "PDF/Solo/Wagner/Tannhauser (Wagner) solo.pdf"; sourceTree = "<group>"; };
-		45BD34911F5007F900762866 /* Brandenburg Concerto no.2 (Bach) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Brandenburg Concerto no.2 (Bach) solo.pdf"; path = "PDF/Solo/Bach/Brandenburg Concerto no.2 (Bach) solo.pdf"; sourceTree = "<group>"; };
-		45BD34931F500B1400762866 /* Scheherazade (Rimsky-Korsakov) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Scheherazade (Rimsky-Korsakov) solo.pdf"; path = "PDF/Solo/Rimsky-Korsakov/Scheherazade (Rimsky-Korsakov) solo.pdf"; sourceTree = "<group>"; };
-		45BD34961F500CD400762866 /* Pictures at an Exhibition (Mussorgsky) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Pictures at an Exhibition (Mussorgsky) solo.pdf"; path = "PDF/Solo/Mussorgsky:Ravel/Pictures at an Exhibition (Mussorgsky) solo.pdf"; sourceTree = "<group>"; };
-		45BD34991F50343D00762866 /* Symphony no. 7 (Bruckner) solo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Symphony no. 7 (Bruckner) solo.pdf"; path = "PDF/Solo/Bruckner/Symphony no. 7 (Bruckner) solo.pdf"; sourceTree = "<group>"; };
+		45411DB91F4CA24D008375A4 /* Carmen (Bizet).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Carmen (Bizet).pdf"; path = "PDF/Solo/Bizet/Carmen (Bizet).pdf"; sourceTree = "<group>"; };
+		45411DBD1F4CA837008375A4 /* Symphony no. 8 (Bruckner).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Symphony no. 8 (Bruckner).pdf"; path = "PDF/Solo/Bruckner/Symphony no. 8 (Bruckner).pdf"; sourceTree = "<group>"; };
+		45411DC21F4CA84C008375A4 /* Don Pasquale (Donizetti).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Don Pasquale (Donizetti).pdf"; path = "PDF/Solo/Donizetti/Don Pasquale (Donizetti).pdf"; sourceTree = "<group>"; };
+		45411DC51F4CA85E008375A4 /* Symphony no. 3 (Mahler).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Symphony no. 3 (Mahler).pdf"; path = "PDF/Solo/Mahler/Symphony no. 3 (Mahler).pdf"; sourceTree = "<group>"; };
+		45411DC61F4CA85E008375A4 /* Symphony no. 9 (Mahler).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Symphony no. 9 (Mahler).pdf"; path = "PDF/Solo/Mahler/Symphony no. 9 (Mahler).pdf"; sourceTree = "<group>"; };
+		45411DCA1F4CA884008375A4 /* Piano Concerto (Ravel).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Piano Concerto (Ravel).pdf"; path = "PDF/Solo/Ravel/Piano Concerto (Ravel).pdf"; sourceTree = "<group>"; };
+		45411DCD1F4CA89E008375A4 /* Symphony no. 2 (Schumann).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Symphony no. 2 (Schumann).pdf"; path = "PDF/Solo/Schumann/Symphony no. 2 (Schumann).pdf"; sourceTree = "<group>"; };
+		45411DD01F4CA8AE008375A4 /* Symphony no. 5 (Tchaikovsky).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Symphony no. 5 (Tchaikovsky).pdf"; path = "PDF/Solo/Tchaikovsky/Symphony no. 5 (Tchaikovsky).pdf"; sourceTree = "<group>"; };
+		45411DD31F4CA8C7008375A4 /* Parsifal (Wagner).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Parsifal (Wagner).pdf"; path = "PDF/Solo/Wagner/Parsifal (Wagner).pdf"; sourceTree = "<group>"; };
+		45411DD51F4CAB6E008375A4 /* Symphony no. 5 (Mahler).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Symphony no. 5 (Mahler).pdf"; path = "PDF/Solo/Mahler/Symphony no. 5 (Mahler).pdf"; sourceTree = "<group>"; };
+		45411DD81F4CAB80008375A4 /* Christmas Oratorio (Bach).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Christmas Oratorio (Bach).pdf"; path = "PDF/Solo/Bach/Christmas Oratorio (Bach).pdf"; sourceTree = "<group>"; };
+		45411DDA1F4CAC17008375A4 /* Mass in b minor (Bach).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Mass in b minor (Bach).pdf"; path = "PDF/Solo/Bach/Mass in b minor (Bach).pdf"; sourceTree = "<group>"; };
+		456C31FB20886AB500BCF9B5 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		45A4EC421F532A5B00F27E49 /* Symphony no. 4 (Tchaikovsky).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Symphony no. 4 (Tchaikovsky).pdf"; path = "PDF/Solo/Tchaikovsky/Symphony no. 4 (Tchaikovsky).pdf"; sourceTree = "<group>"; };
+		45A4EC441F532AD900F27E49 /* Magnificat (Bach).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Magnificat (Bach).pdf"; path = "PDF/Solo/Bach/Magnificat (Bach).pdf"; sourceTree = "<group>"; };
+		45A4EC461F532AFC00F27E49 /* Leonore Overture no. 2 (Beethoven).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Leonore Overture no. 2 (Beethoven).pdf"; path = "PDF/Solo/Beethoven/Leonore Overture no. 2 (Beethoven).pdf"; sourceTree = "<group>"; };
+		45A4EC471F532AFC00F27E49 /* Symphony no. 9 (Beethoven).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Symphony no. 9 (Beethoven).pdf"; path = "PDF/Solo/Beethoven/Symphony no. 9 (Beethoven).pdf"; sourceTree = "<group>"; };
+		45A4EC4A1F532B2000F27E49 /* Academic Festival Overture (Brahms).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Academic Festival Overture (Brahms).pdf"; path = "PDF/Solo/Brahms/Academic Festival Overture (Brahms).pdf"; sourceTree = "<group>"; };
+		45A4EC4C1F532B3F00F27E49 /* Symphony no. 8 (Dvorak).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Symphony no. 8 (Dvorak).pdf"; path = "PDF/Solo/Dvorak/Symphony no. 8 (Dvorak).pdf"; sourceTree = "<group>"; };
+		45A4EC4E1F55575B00F27E49 /* The Nutcracker (Tchaikovsky).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "The Nutcracker (Tchaikovsky).pdf"; path = "PDF/Solo/Tchaikovsky/The Nutcracker (Tchaikovsky).pdf"; sourceTree = "<group>"; };
+		45A4EC501F5559E600F27E49 /* Swan Lake (Tchaikovsky).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Swan Lake (Tchaikovsky).pdf"; path = "PDF/Solo/Tchaikovsky/Swan Lake (Tchaikovsky).pdf"; sourceTree = "<group>"; };
+		45A4EC521F556AB600F27E49 /* Symphony no. 2 (Brahms).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Symphony no. 2 (Brahms).pdf"; path = "PDF/Solo/Brahms/Symphony no. 2 (Brahms).pdf"; sourceTree = "<group>"; };
+		45A4EC541F556D4C00F27E49 /* Tannhauser (Wagner).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Tannhauser (Wagner).pdf"; path = "PDF/Solo/Wagner/Tannhauser (Wagner).pdf"; sourceTree = "<group>"; };
+		45BD34911F5007F900762866 /* Brandenburg Concerto no.2 (Bach).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Brandenburg Concerto no.2 (Bach).pdf"; path = "PDF/Solo/Bach/Brandenburg Concerto no.2 (Bach).pdf"; sourceTree = "<group>"; };
+		45BD34931F500B1400762866 /* Scheherazade (Rimsky-Korsakov).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Scheherazade (Rimsky-Korsakov).pdf"; path = "PDF/Solo/Rimsky-Korsakov/Scheherazade (Rimsky-Korsakov).pdf"; sourceTree = "<group>"; };
+		45BD34961F500CD400762866 /* Pictures at an Exhibition (Mussorgsky).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Pictures at an Exhibition (Mussorgsky).pdf"; path = "PDF/Solo/Mussorgsky:Ravel/Pictures at an Exhibition (Mussorgsky).pdf"; sourceTree = "<group>"; };
+		45BD34991F50343D00762866 /* Symphony no. 7 (Bruckner).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Symphony no. 7 (Bruckner).pdf"; path = "PDF/Solo/Bruckner/Symphony no. 7 (Bruckner).pdf"; sourceTree = "<group>"; };
+		85A5E2F96F5A29945F18CE87 /* Pods-Trumpet Excerpts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trumpet Excerpts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trumpet Excerpts/Pods-Trumpet Excerpts.debug.xcconfig"; sourceTree = "<group>"; };
+		BFACC16FD10EC1F7561E4E93 /* Pods-Trumpet Excerpts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trumpet Excerpts.release.xcconfig"; path = "Pods/Target Support Files/Pods-Trumpet Excerpts/Pods-Trumpet Excerpts.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D482334F1662411B10C2A52 /* Pods_Trumpet_Excerpts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +103,8 @@
 			children = (
 				45411D8F1F4C86CE008375A4 /* Trumpet Excerpts */,
 				45411D8E1F4C86CE008375A4 /* Products */,
+				9E4F29081C15AD9C47380EDB /* Pods */,
+				779E7777A50B32775D2E3E27 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +123,7 @@
 				45411D901F4C86CE008375A4 /* AppDelegate.swift */,
 				45411D921F4C86CF008375A4 /* SoloTVC.swift */,
 				45411DA71F4C987F008375A4 /* PDFViewer.swift */,
+				456C31FB20886AB500BCF9B5 /* ActivityIndicator.swift */,
 				45411DA21F4C88B8008375A4 /* ExcerptList.swift */,
 				45411D941F4C86CF008375A4 /* Main.storyboard */,
 				45411D971F4C86CF008375A4 /* Assets.xcassets */,
@@ -127,7 +137,6 @@
 			isa = PBXGroup;
 			children = (
 				45411DA51F4C8926008375A4 /* Solo */,
-				45411DA61F4C892B008375A4 /* Tutti */,
 			);
 			name = PDF;
 			sourceTree = "<group>";
@@ -153,17 +162,10 @@
 			name = Solo;
 			sourceTree = "<group>";
 		};
-		45411DA61F4C892B008375A4 /* Tutti */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Tutti;
-			sourceTree = "<group>";
-		};
 		45411DBB1F4CA251008375A4 /* Bizet */ = {
 			isa = PBXGroup;
 			children = (
-				45411DB91F4CA24D008375A4 /* Carmen (Bizet) solo.pdf */,
+				45411DB91F4CA24D008375A4 /* Carmen (Bizet).pdf */,
 			);
 			name = Bizet;
 			sourceTree = "<group>";
@@ -171,8 +173,8 @@
 		45411DBC1F4CA81F008375A4 /* Bruckner */ = {
 			isa = PBXGroup;
 			children = (
-				45411DBD1F4CA837008375A4 /* Symphony no. 8 (Bruckner) solo.pdf */,
-				45BD34991F50343D00762866 /* Symphony no. 7 (Bruckner) solo.pdf */,
+				45411DBD1F4CA837008375A4 /* Symphony no. 8 (Bruckner).pdf */,
+				45BD34991F50343D00762866 /* Symphony no. 7 (Bruckner).pdf */,
 			);
 			name = Bruckner;
 			sourceTree = "<group>";
@@ -180,7 +182,7 @@
 		45411DC11F4CA843008375A4 /* Donizetti */ = {
 			isa = PBXGroup;
 			children = (
-				45411DC21F4CA84C008375A4 /* Don Pasquale (Donizetti) solo.pdf */,
+				45411DC21F4CA84C008375A4 /* Don Pasquale (Donizetti).pdf */,
 			);
 			name = Donizetti;
 			sourceTree = "<group>";
@@ -188,9 +190,9 @@
 		45411DC41F4CA857008375A4 /* Mahler */ = {
 			isa = PBXGroup;
 			children = (
-				45411DD51F4CAB6E008375A4 /* Symphony no. 5 (Mahler) solo.pdf */,
-				45411DC51F4CA85E008375A4 /* Symphony no. 3 (Mahler) solo.pdf */,
-				45411DC61F4CA85E008375A4 /* Symphony no. 9 (Mahler) solo.pdf */,
+				45411DD51F4CAB6E008375A4 /* Symphony no. 5 (Mahler).pdf */,
+				45411DC51F4CA85E008375A4 /* Symphony no. 3 (Mahler).pdf */,
+				45411DC61F4CA85E008375A4 /* Symphony no. 9 (Mahler).pdf */,
 			);
 			name = Mahler;
 			sourceTree = "<group>";
@@ -198,7 +200,7 @@
 		45411DC91F4CA87F008375A4 /* Ravel */ = {
 			isa = PBXGroup;
 			children = (
-				45411DCA1F4CA884008375A4 /* Piano Concerto (Ravel) solo.pdf */,
+				45411DCA1F4CA884008375A4 /* Piano Concerto (Ravel).pdf */,
 			);
 			name = Ravel;
 			sourceTree = "<group>";
@@ -206,7 +208,7 @@
 		45411DCC1F4CA896008375A4 /* Schumann */ = {
 			isa = PBXGroup;
 			children = (
-				45411DCD1F4CA89E008375A4 /* Symphony no. 2 (Schumann) solo.pdf */,
+				45411DCD1F4CA89E008375A4 /* Symphony no. 2 (Schumann).pdf */,
 			);
 			name = Schumann;
 			sourceTree = "<group>";
@@ -214,10 +216,10 @@
 		45411DCF1F4CA8A4008375A4 /* Tchaikovsky */ = {
 			isa = PBXGroup;
 			children = (
-				45A4EC501F5559E600F27E49 /* Swan Lake (Tchaikovsky) solo.pdf */,
-				45A4EC4E1F55575B00F27E49 /* The Nutcracker (Tchaikovsky) solo.pdf */,
-				45A4EC421F532A5B00F27E49 /* Symphony no. 4 (Tchaikovsky) solo.pdf */,
-				45411DD01F4CA8AE008375A4 /* Symphony no. 5 (Tchaikovsky) solo.pdf */,
+				45A4EC501F5559E600F27E49 /* Swan Lake (Tchaikovsky).pdf */,
+				45A4EC4E1F55575B00F27E49 /* The Nutcracker (Tchaikovsky).pdf */,
+				45A4EC421F532A5B00F27E49 /* Symphony no. 4 (Tchaikovsky).pdf */,
+				45411DD01F4CA8AE008375A4 /* Symphony no. 5 (Tchaikovsky).pdf */,
 			);
 			name = Tchaikovsky;
 			sourceTree = "<group>";
@@ -225,8 +227,8 @@
 		45411DD21F4CA8BE008375A4 /* Wagner */ = {
 			isa = PBXGroup;
 			children = (
-				45411DD31F4CA8C7008375A4 /* Parsifal (Wagner) solo.pdf */,
-				45A4EC541F556D4C00F27E49 /* Tannhauser (Wagner) solo.pdf */,
+				45411DD31F4CA8C7008375A4 /* Parsifal (Wagner).pdf */,
+				45A4EC541F556D4C00F27E49 /* Tannhauser (Wagner).pdf */,
 			);
 			name = Wagner;
 			sourceTree = "<group>";
@@ -234,10 +236,10 @@
 		45411DD71F4CAB74008375A4 /* Bach */ = {
 			isa = PBXGroup;
 			children = (
-				45A4EC441F532AD900F27E49 /* Magnificat (Bach) solo.pdf */,
-				45BD34911F5007F900762866 /* Brandenburg Concerto no.2 (Bach) solo.pdf */,
-				45411DD81F4CAB80008375A4 /* Christmas Oratorio (Bach) solo.pdf */,
-				45411DDA1F4CAC17008375A4 /* Mass in b minor (Bach) solo.pdf */,
+				45A4EC441F532AD900F27E49 /* Magnificat (Bach).pdf */,
+				45BD34911F5007F900762866 /* Brandenburg Concerto no.2 (Bach).pdf */,
+				45411DD81F4CAB80008375A4 /* Christmas Oratorio (Bach).pdf */,
+				45411DDA1F4CAC17008375A4 /* Mass in b minor (Bach).pdf */,
 			);
 			name = Bach;
 			sourceTree = "<group>";
@@ -245,8 +247,8 @@
 		458DC23A1F5320ED0045A74E /* Beethoven */ = {
 			isa = PBXGroup;
 			children = (
-				45A4EC461F532AFC00F27E49 /* Leonore Overture no. 2 (Beethoven) solo.pdf */,
-				45A4EC471F532AFC00F27E49 /* Symphony no. 9 (Beethoven) solo.pdf */,
+				45A4EC461F532AFC00F27E49 /* Leonore Overture no. 2 (Beethoven).pdf */,
+				45A4EC471F532AFC00F27E49 /* Symphony no. 9 (Beethoven).pdf */,
 			);
 			name = Beethoven;
 			sourceTree = "<group>";
@@ -254,8 +256,8 @@
 		458DC23F1F53249F0045A74E /* Brahms */ = {
 			isa = PBXGroup;
 			children = (
-				45A4EC521F556AB600F27E49 /* Symphony no. 2 (Brahms) solo.pdf */,
-				45A4EC4A1F532B2000F27E49 /* Academic Festival Overture (Brahms) solo.pdf */,
+				45A4EC521F556AB600F27E49 /* Symphony no. 2 (Brahms).pdf */,
+				45A4EC4A1F532B2000F27E49 /* Academic Festival Overture (Brahms).pdf */,
 			);
 			name = Brahms;
 			sourceTree = "<group>";
@@ -263,7 +265,7 @@
 		45A4EC3F1F5328C000F27E49 /* Dvorak */ = {
 			isa = PBXGroup;
 			children = (
-				45A4EC4C1F532B3F00F27E49 /* Symphony no. 8 (Dvorak) solo.pdf */,
+				45A4EC4C1F532B3F00F27E49 /* Symphony no. 8 (Dvorak).pdf */,
 			);
 			name = Dvorak;
 			sourceTree = "<group>";
@@ -271,7 +273,7 @@
 		45BD34951F500B1900762866 /* Rimsky-Korsakov */ = {
 			isa = PBXGroup;
 			children = (
-				45BD34931F500B1400762866 /* Scheherazade (Rimsky-Korsakov) solo.pdf */,
+				45BD34931F500B1400762866 /* Scheherazade (Rimsky-Korsakov).pdf */,
 			);
 			name = "Rimsky-Korsakov";
 			sourceTree = "<group>";
@@ -279,9 +281,26 @@
 		45BD34981F500CDA00762866 /* Mussorgsky */ = {
 			isa = PBXGroup;
 			children = (
-				45BD34961F500CD400762866 /* Pictures at an Exhibition (Mussorgsky) solo.pdf */,
+				45BD34961F500CD400762866 /* Pictures at an Exhibition (Mussorgsky).pdf */,
 			);
 			name = Mussorgsky;
+			sourceTree = "<group>";
+		};
+		779E7777A50B32775D2E3E27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				050B0B0B455DB430BB42F39A /* Pods_Trumpet_Excerpts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E4F29081C15AD9C47380EDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85A5E2F96F5A29945F18CE87 /* Pods-Trumpet Excerpts.debug.xcconfig */,
+				BFACC16FD10EC1F7561E4E93 /* Pods-Trumpet Excerpts.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,9 +310,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45411D9F1F4C86CF008375A4 /* Build configuration list for PBXNativeTarget "Trumpet Excerpts" */;
 			buildPhases = (
+				9E5AF3F9F33D4EBB5A4331A8 /* [CP] Check Pods Manifest.lock */,
 				45411D891F4C86CE008375A4 /* Sources */,
 				45411D8A1F4C86CE008375A4 /* Frameworks */,
 				45411D8B1F4C86CE008375A4 /* Resources */,
+				912996EFE69D07DA70A831FB /* [CP] Embed Pods Frameworks */,
+				9E39FEBC6D9B24D7F3E493EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -345,39 +367,97 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45BD34941F500B1400762866 /* Scheherazade (Rimsky-Korsakov) solo.pdf in Resources */,
-				45BD349A1F50343D00762866 /* Symphony no. 7 (Bruckner) solo.pdf in Resources */,
-				45411DD91F4CAB80008375A4 /* Christmas Oratorio (Bach) solo.pdf in Resources */,
-				45411DD41F4CA8C7008375A4 /* Parsifal (Wagner) solo.pdf in Resources */,
-				45A4EC491F532AFC00F27E49 /* Symphony no. 9 (Beethoven) solo.pdf in Resources */,
-				45A4EC451F532AD900F27E49 /* Magnificat (Bach) solo.pdf in Resources */,
-				45411DC71F4CA85E008375A4 /* Symphony no. 3 (Mahler) solo.pdf in Resources */,
+				45BD34941F500B1400762866 /* Scheherazade (Rimsky-Korsakov).pdf in Resources */,
+				45BD349A1F50343D00762866 /* Symphony no. 7 (Bruckner).pdf in Resources */,
+				45411DD91F4CAB80008375A4 /* Christmas Oratorio (Bach).pdf in Resources */,
+				45411DD41F4CA8C7008375A4 /* Parsifal (Wagner).pdf in Resources */,
+				45A4EC491F532AFC00F27E49 /* Symphony no. 9 (Beethoven).pdf in Resources */,
+				45A4EC451F532AD900F27E49 /* Magnificat (Bach).pdf in Resources */,
+				45411DC71F4CA85E008375A4 /* Symphony no. 3 (Mahler).pdf in Resources */,
 				45411D9B1F4C86CF008375A4 /* LaunchScreen.storyboard in Resources */,
-				45BD34971F500CD400762866 /* Pictures at an Exhibition (Mussorgsky) solo.pdf in Resources */,
-				45A4EC551F556D4C00F27E49 /* Tannhauser (Wagner) solo.pdf in Resources */,
-				45A4EC4D1F532B3F00F27E49 /* Symphony no. 8 (Dvorak) solo.pdf in Resources */,
-				45BD34921F5007F900762866 /* Brandenburg Concerto no.2 (Bach) solo.pdf in Resources */,
-				45411DCE1F4CA89E008375A4 /* Symphony no. 2 (Schumann) solo.pdf in Resources */,
-				45411DDB1F4CAC17008375A4 /* Mass in b minor (Bach) solo.pdf in Resources */,
-				45411DBA1F4CA24D008375A4 /* Carmen (Bizet) solo.pdf in Resources */,
-				45A4EC531F556AB600F27E49 /* Symphony no. 2 (Brahms) solo.pdf in Resources */,
-				45411DC81F4CA85E008375A4 /* Symphony no. 9 (Mahler) solo.pdf in Resources */,
-				45411DD61F4CAB6E008375A4 /* Symphony no. 5 (Mahler) solo.pdf in Resources */,
-				45411DBF1F4CA837008375A4 /* Symphony no. 8 (Bruckner) solo.pdf in Resources */,
-				45411DD11F4CA8AE008375A4 /* Symphony no. 5 (Tchaikovsky) solo.pdf in Resources */,
-				45411DCB1F4CA884008375A4 /* Piano Concerto (Ravel) solo.pdf in Resources */,
-				45A4EC431F532A5B00F27E49 /* Symphony no. 4 (Tchaikovsky) solo.pdf in Resources */,
-				45A4EC511F5559E600F27E49 /* Swan Lake (Tchaikovsky) solo.pdf in Resources */,
-				45411DC31F4CA84C008375A4 /* Don Pasquale (Donizetti) solo.pdf in Resources */,
+				45BD34971F500CD400762866 /* Pictures at an Exhibition (Mussorgsky).pdf in Resources */,
+				45A4EC551F556D4C00F27E49 /* Tannhauser (Wagner).pdf in Resources */,
+				45A4EC4D1F532B3F00F27E49 /* Symphony no. 8 (Dvorak).pdf in Resources */,
+				45BD34921F5007F900762866 /* Brandenburg Concerto no.2 (Bach).pdf in Resources */,
+				45411DCE1F4CA89E008375A4 /* Symphony no. 2 (Schumann).pdf in Resources */,
+				45411DDB1F4CAC17008375A4 /* Mass in b minor (Bach).pdf in Resources */,
+				45411DBA1F4CA24D008375A4 /* Carmen (Bizet).pdf in Resources */,
+				45A4EC531F556AB600F27E49 /* Symphony no. 2 (Brahms).pdf in Resources */,
+				45411DC81F4CA85E008375A4 /* Symphony no. 9 (Mahler).pdf in Resources */,
+				45411DD61F4CAB6E008375A4 /* Symphony no. 5 (Mahler).pdf in Resources */,
+				45411DBF1F4CA837008375A4 /* Symphony no. 8 (Bruckner).pdf in Resources */,
+				45411DD11F4CA8AE008375A4 /* Symphony no. 5 (Tchaikovsky).pdf in Resources */,
+				45411DCB1F4CA884008375A4 /* Piano Concerto (Ravel).pdf in Resources */,
+				45A4EC431F532A5B00F27E49 /* Symphony no. 4 (Tchaikovsky).pdf in Resources */,
+				45A4EC511F5559E600F27E49 /* Swan Lake (Tchaikovsky).pdf in Resources */,
+				45411DC31F4CA84C008375A4 /* Don Pasquale (Donizetti).pdf in Resources */,
 				45411D981F4C86CF008375A4 /* Assets.xcassets in Resources */,
-				45A4EC4F1F55575B00F27E49 /* The Nutcracker (Tchaikovsky) solo.pdf in Resources */,
-				45A4EC481F532AFC00F27E49 /* Leonore Overture no. 2 (Beethoven) solo.pdf in Resources */,
-				45A4EC4B1F532B2000F27E49 /* Academic Festival Overture (Brahms) solo.pdf in Resources */,
+				45A4EC4F1F55575B00F27E49 /* The Nutcracker (Tchaikovsky).pdf in Resources */,
+				45A4EC481F532AFC00F27E49 /* Leonore Overture no. 2 (Beethoven).pdf in Resources */,
+				45A4EC4B1F532B2000F27E49 /* Academic Festival Overture (Brahms).pdf in Resources */,
 				45411D961F4C86CF008375A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		912996EFE69D07DA70A831FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Trumpet Excerpts/Pods-Trumpet Excerpts-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trumpet Excerpts/Pods-Trumpet Excerpts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E39FEBC6D9B24D7F3E493EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trumpet Excerpts/Pods-Trumpet Excerpts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E5AF3F9F33D4EBB5A4331A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trumpet Excerpts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		45411D891F4C86CE008375A4 /* Sources */ = {
@@ -385,6 +465,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45411D931F4C86CF008375A4 /* SoloTVC.swift in Sources */,
+				456C31FC20886AB500BCF9B5 /* ActivityIndicator.swift in Sources */,
 				45411DA31F4C88B8008375A4 /* ExcerptList.swift in Sources */,
 				45411DA81F4C987F008375A4 /* PDFViewer.swift in Sources */,
 				45411D911F4C86CE008375A4 /* AppDelegate.swift in Sources */,
@@ -518,7 +599,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -527,6 +607,7 @@
 		};
 		45411DA01F4C86CF008375A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85A5E2F96F5A29945F18CE87 /* Pods-Trumpet Excerpts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5PY55DGNG5;
@@ -542,6 +623,7 @@
 		};
 		45411DA11F4C86CF008375A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFACC16FD10EC1F7561E4E93 /* Pods-Trumpet Excerpts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5PY55DGNG5;

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14092" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cgv-6j-aqy">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14111" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cgv-6j-aqy">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14081.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -54,19 +54,7 @@
                     <view key="view" contentMode="scaleToFill" id="spL-HP-DxR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fyJ-V4-gaK">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="690"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </webView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="fyJ-V4-gaK" firstAttribute="leading" secondItem="spL-HP-DxR" secondAttribute="leading" id="86b-4H-dGs"/>
-                            <constraint firstItem="95q-6Q-rGt" firstAttribute="top" secondItem="fyJ-V4-gaK" secondAttribute="bottom" id="JPc-JN-c9h"/>
-                            <constraint firstAttribute="trailing" secondItem="fyJ-V4-gaK" secondAttribute="trailing" id="SsR-ua-go3"/>
-                            <constraint firstItem="fyJ-V4-gaK" firstAttribute="top" secondItem="spL-HP-DxR" secondAttribute="top" id="p30-PE-nCi"/>
-                        </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <navigationItem key="navigationItem" title="Title" id="Aqo-1R-2gD">
@@ -78,13 +66,10 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <connections>
-                        <outlet property="pdfViewer" destination="fyJ-V4-gaK" id="vYM-Bi-BQg"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NFK-kt-loN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1980" y="89.505247376311857"/>
+            <point key="canvasLocation" x="1980" y="89.408866995073893"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="1cE-hT-01N">

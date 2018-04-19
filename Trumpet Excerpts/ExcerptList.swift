@@ -17,7 +17,7 @@ struct Excerpt {
 }
 
 
-let soloExcerpts: [Excerpt] = [Excerpt.init(composer: "Bach",
+let excerpts: [Excerpt] = [Excerpt.init(composer: "Bach",
                                             firstName: "Johann Sebastian",
                                             pieces: ["Brandenburg Concerto no.2",
                                                      "Christmas Oratorio",
